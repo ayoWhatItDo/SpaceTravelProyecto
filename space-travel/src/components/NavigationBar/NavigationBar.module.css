@@ -1,0 +1,28 @@
+.navigation
+{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.navigation__item
+{
+  font-size: 1.5rem;
+  margin: 0 2rem;
+  padding: 1.2rem;
+  text-decoration: none;
+  color: #ecd1d1;
+  border: 3px solid transparent;
+}
+
+.navigation__item:hover
+{
+  color: #90d88a;
+}
+
+.navigation__item--active
+{
+  border: 2px solid #dfdfdf;
+}

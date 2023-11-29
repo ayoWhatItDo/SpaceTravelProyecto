@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after
+{
+  box-sizing: inherit;
+}
+
+html
+{
+  font-size: 64.5%;
+  box-sizing: border-box;
+}
+
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  min-height: 100vh;
+  color: #f8efef;
+  background-color: #1f1f1f;
+}
+
+button
+{
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  color: #fff0f0;
+  border: 2px solid #ffeaea;
+  background-color: transparent;
+}
+
+button:hover
+{
+  border-color: #8bee84;
+}
+
+input,
+textarea
+{
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 0.5rem;
+  color: #fffafa;
+  border: 2px solid #f7e2e2;
+  outline: none;
+  background-color: transparent;
+}
+
+textarea
+{
+  min-height: 12rem;
+}
+
+textarea:hover,
+input:hover
+{
+  border-color: #6cd265;
+}
